@@ -15,27 +15,56 @@ const Index = props => {
           <div className="lg:flex">
             <div className="lg:w-2/3">
               <div className="flex">
-                <div className="w-2/4">
+                <div className="w-full">
                   <h1 className="page-title b-line">Couples Therapy</h1>
                   <h2 className="font-light text-4xl">
                     Help for partnered <strong>couples</strong>,{" "}
                     <strong>premarital counseling</strong>,{" "}
-                    <strong>marriage counseling</strong>, couples divorced, or
-                    considering divorce, dating coaching.
+                    <strong>marriage counseling</strong>, couples divorced, or considering
+                    divorce, dating coaching from Gottman
+                    method trained therapist
                   </h2>
                   <p className="text-lg">
-                    Conflict is an intrinsic aspect of any substantive relationship.
-                    Couples therapy, couple counseling or marriage counseling is a
-                    desirable choice when you are experiencing a significant level
-                    of conflict with your partner that is impeding you, more often
-                    than not, to enjoy each other&#39;s company. Couples counseling
-                    or therapy can help you find new ways of communicating,
-                    negotiating, understanding, and appreciating one another.
+                  <ul>
+                    <li>Do you want to reduce conflict and improve communication?</li>
+                    <li>Do you long for a way to rebuild trust and connection?</li>
+                    <li>Are you looking for greater emotional or sexual intimacy?</li>
+                    <li>Are you wondering whether to make it work or to get a
+                      divorce?</li>
+                      <li>Could you benefit from professional support and guidance
+                        through a difficult patch in your relationship?</li>
+                  </ul>
+                  <p>
+                    You’re not alone! Most relationships go through challenging times.
+                    In fact, most couples find themselves in trouble because they’ve
+                    never learned the tools and skills necessary to make a long-term
+                    relationship work. What if you didn’t have to end your relationship?
+                    What if, by working on these challenges, your relationship actually
+                    thrives and you feel closer than ever?
+                  </p>
                   </p>
                 </div>
   
-                <div className="w-2/4">
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/Ap1TxCYZCHQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <div className="w-full">
+                  <h2 className="text-5xl">What is Gottman Method Couples Therapy?</h2>
+                  <p>
+                    Gottman Method Couple Therapy is a structured, goal-oriented and
+                    evidence-based therapy. Intervention strategies are based upon
+                    Dr.John Gottman’s three decades of scientific research with over
+                    3,000 couples. This research shows us what actually works to help
+                    couples achieve a long-term healthy relationship.
+                    <strong>Some skills that you and your spouse or partner will learn
+                      include:</strong>
+                      <ul>
+                        <li>Work through and resolve conflict, even around arguments
+                          that you’ve been having for years</li>
+                          <li>Develop a greater sense of understanding and appreciation for
+                            your partner</li>
+                            <li>Increase your fondness and love for each other</li>
+                            <li>Build soothing and coping strategies to help you and your
+                              partner through the inevitable, tough times</li>
+                      </ul>
+                  </p>
                 </div>
               </div>
               <p className="text-lg">
