@@ -24,7 +24,7 @@ const Index = props => {
                     method trained therapist
                   </h2>
                   <p className="text-lg">
-                  <ul className="list-disc list-outside ms-10 pt-6">
+                  <ul className="list-disc list-outside mx-10 my-6">
                     <li>Do you want to reduce conflict and improve communication?</li>
                     <li>Do you long for a way to rebuild trust and connection?</li>
                     <li>Are you looking for greater emotional or sexual intimacy?</li>
@@ -54,7 +54,7 @@ const Index = props => {
                     couples achieve a long-term healthy relationship.
                     <strong>Some skills that you and your spouse or partner will learn
                       include:</strong>
-                      <ul className="list-disc list-outside ms-10 pt-6">
+                      <ul className="list-disc list-outside mx-10 my-6">
                         <li>Work through and resolve conflict, even around arguments
                           that you’ve been having for years</li>
                           <li>Develop a greater sense of understanding and appreciation for
