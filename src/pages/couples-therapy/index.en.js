@@ -14,7 +14,6 @@ const Index = props => {
         <div className="container">
           <div className="lg:flex">
             <div className="lg:w-2/3">
-              <div className="flex">
                 <div className="w-full">
                   <h1 className="page-title b-line">Couples Therapy</h1>
                   <h2 className="font-light text-4xl">
@@ -66,7 +65,6 @@ const Index = props => {
                       </ul>
                   </p>
                 </div>
-              </div>
               <p className="text-lg">
                 Couple counseling by an expert may save your relationship before
                 it&#39;s too late. Yet, remaining together is not the only--nor
