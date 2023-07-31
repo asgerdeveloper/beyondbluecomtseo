@@ -86,7 +86,7 @@ const Index = props => {
                       <li>Knew how to support each other to be the best version of
                         yourselves</li>
                 </ul>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/Ap1TxCYZCHQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+               
               </p>
             </div>
           <div className="text-center md:text-left">
