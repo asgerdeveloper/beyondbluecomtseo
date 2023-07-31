@@ -10,26 +10,34 @@ const Index = props => {
         title="Couples Therapy | Couple Counseling and Marriage Counseling in Tokyo"
         description="Help for partnered couples, premarital counseling, marriage counseling, couples divorced, or considering divorce, dating coaching."
       />
-      <section className="py-6 md:py-16 bg-image bg-image-plant">
+    <section className="py-6 md:py-16 bg-image bg-image-plant">
         <div className="container">
           <div className="lg:flex">
             <div className="lg:w-2/3">
-              <h1 className="page-title b-line">Couples Therapy</h1>
-              <h2 className="font-light text-4xl">
-                Help for partnered <strong>couples</strong>,{" "}
-                <strong>premarital counseling</strong>,{" "}
-                <strong>marriage counseling</strong>, couples divorced, or
-                considering divorce, dating coaching.
-              </h2>
-              <p className="text-lg">
-                Conflict is an intrinsic aspect of any substantive relationship.
-                Couples therapy, couple counseling or marriage counseling is a
-                desirable choice when you are experiencing a significant level
-                of conflict with your partner that is impeding you, more often
-                than not, to enjoy each other&#39;s company. Couples counseling
-                or therapy can help you find new ways of communicating,
-                negotiating, understanding, and appreciating one another.
-              </p>
+              <div className="flex">
+                <div className="w-2/4">
+                  <h1 className="page-title b-line">Couples Therapy</h1>
+                  <h2 className="font-light text-4xl">
+                    Help for partnered <strong>couples</strong>,{" "}
+                    <strong>premarital counseling</strong>,{" "}
+                    <strong>marriage counseling</strong>, couples divorced, or
+                    considering divorce, dating coaching.
+                  </h2>
+                  <p className="text-lg">
+                    Conflict is an intrinsic aspect of any substantive relationship.
+                    Couples therapy, couple counseling or marriage counseling is a
+                    desirable choice when you are experiencing a significant level
+                    of conflict with your partner that is impeding you, more often
+                    than not, to enjoy each other&#39;s company. Couples counseling
+                    or therapy can help you find new ways of communicating,
+                    negotiating, understanding, and appreciating one another.
+                  </p>
+                </div>
+  
+                <div className="w-2/4">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/Ap1TxCYZCHQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+              </div>
               <p className="text-lg">
                 Couple counseling by an expert may save your relationship before
                 it&#39;s too late. Yet, remaining together is not the only--nor
