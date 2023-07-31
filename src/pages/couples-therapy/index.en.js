@@ -90,7 +90,7 @@ const Index = props => {
               </p>
             </div>
 <div class="aspect-w-16 aspect-h-9 mx-auto">
-  <div class="w-full h-0">
+  <div class="w-full h-0 relative">
     <iframe class="absolute top-0 left-0 w-full h-full" src="https://www.youtube.com/embed/Ap1TxCYZCHQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   </div>
 </div>
