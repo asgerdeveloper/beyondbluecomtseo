@@ -89,9 +89,12 @@ const Index = props => {
                
               </p>
             </div>
-            <div className="aspect-w-16 aspect-h-9">
-  <iframe src="https://www.youtube.com/embed/Ap1TxCYZCHQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div class="aspect-w-16 aspect-h-9 mx-auto">
+  <div class="w-full h-0">
+    <iframe class="absolute top-0 left-0 w-full h-full" src="https://www.youtube.com/embed/Ap1TxCYZCHQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
 </div>
+
 
           <div className="text-center md:text-left mt-8">
             <BookingButton />
