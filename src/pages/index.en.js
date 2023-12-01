@@ -29,7 +29,7 @@ const Index = props => {
         title="Psychotherapy for Trauma, Depression &amp; Anxiety in Tokyo"
         description="Psychotherapy for trauma, depression, anxiety, relationship issues &amp; general struggles of modern life."
       />
-      <header className="home-header py-6 md:py-16 flex items-center">
+      <section className="py-6 md:py-16 bg-image bg-image-plant">
         <div className="container relative">
           <div className="lg:flex items-center">
             <div className="lg:w-2/3">
@@ -44,16 +44,10 @@ const Index = props => {
                 </h1>
               </div>
             </div>
-            <div className="lg:w-1/3 mb-6 lg:mb-0">
-              <Img
-                fluid={images.tumee.childImageSharp.fluid}
-                className="mx-auto max-w-lg shadow-xl"
-                alt="Tumee Bayanbileg - English Speaking Therapist in Tokyo"
-              />
             </div>
           </div>
         </div>
-      </header>
+      </section>
 
       <section className="py-20 pt-10 text-center">
         <div className="container">
