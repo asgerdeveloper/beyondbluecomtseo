@@ -7,20 +7,20 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { BookingButton } from "../components/buttons"
 
 const Index = props => {
-  const images = useStaticQuery(graphql`
-    query {
-      tumee: file(
-        relativePath: {
-          eq: "tumee-bayanbileg-english-speaking-therapist-in-tokyo-beyondbleu.jpg"
-        }
-      ) {
-        childImageSharp {
-          fluid(maxWidth: 500) {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-    }
+  // const images = useStaticQuery(graphql`
+  //   query {
+  //     tumee: file(
+  //       relativePath: {
+  //         eq: "tumee-bayanbileg-english-speaking-therapist-in-tokyo-beyondbleu.jpg"
+  //       }
+  //     ) {
+  //       childImageSharp {
+  //         fluid(maxWidth: 500) {
+  //           ...GatsbyImageSharpFluid
+  //         }
+  //       }
+  //     }
+  //   }
   `)
 
   return (
