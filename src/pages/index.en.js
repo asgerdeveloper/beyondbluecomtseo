@@ -1,27 +1,11 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-//import { graphql, useStaticQuery } from "gatsby"
-import Img from "gatsby-image"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { BookingButton } from "../components/buttons"
 
 const Index = props => {
-  // const images = useStaticQuery(graphql`
-  //   query {
-  //     tumee: file(
-  //       relativePath: {
-  //         eq: "tumee-bayanbileg-english-speaking-therapist-in-tokyo-beyondbleu.jpg"
-  //       }
-  //     ) {
-  //       childImageSharp {
-  //         fluid(maxWidth: 500) {
-  //           ...GatsbyImageSharpFluid
-  //         }
-  //       }
-  //     }
-  //   }
-  `)
+)
 
   return (
     <Layout {...props}>
