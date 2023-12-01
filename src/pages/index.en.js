@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { graphql, useStaticQuery } from "gatsby"
+//import { graphql, useStaticQuery } from "gatsby"
 import Img from "gatsby-image"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { BookingButton } from "../components/buttons"
