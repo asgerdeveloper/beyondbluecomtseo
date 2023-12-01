@@ -29,7 +29,7 @@ const Index = props => {
         title="Psychotherapy for Trauma, Depression &amp; Anxiety in Tokyo"
         description="Psychotherapy for trauma, depression, anxiety, relationship issues &amp; general struggles of modern life."
       />
-      <section className="py-6 md:py-16 bg-image bg-image-plant">
+      <header className="py-6 md:py-16 bg-image bg-image-plant">
         <div className="container relative">
           <div className="lg:flex items-center">
             <div className="lg:w-2/3">
@@ -47,7 +47,7 @@ const Index = props => {
             </div>
           </div>
         </div>
-      </section>
+      </header>
 
       <section className="py-20 pt-10 text-center">
         <div className="container">
