@@ -75,6 +75,7 @@ export default () => {
           </div>
         </div>
         <hr />
+                  <h2 className="py-6 text-center lg:text-left"> test change</h2>
         <div className="py-6 text-center lg:text-left">
           © {new Date().getFullYear()} @beyondbleu.com. All rights reserved.
         </div>
